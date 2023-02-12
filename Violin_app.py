@@ -1,5 +1,5 @@
 import streamlit as st
-
+import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -27,6 +27,8 @@ plt.title("Some title")
 
 
  
+import streamlit as st
+import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -66,8 +68,11 @@ ax.tick_params(which='major', length=10)
 
 
 
-import numpy as np
+import streamlit as st
 import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
 sns.set_theme()
 
@@ -84,10 +89,11 @@ sns.violinplot(data=d, palette="light:g", inner="points", orient="h")
 
 
 
-
+import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 
 #df = sns.load_dataset('data_2007')
 
